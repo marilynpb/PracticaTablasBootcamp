@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+}
+
+@font-face {
+    font-family: miEstilo;
+    src: url("../fuentes/Blueberry01.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: miTexto;
+    src: url("../fuentes/Blueberry02.ttf");
+    font-weight: 900;
+}
+
+h1{
+    background-color: #0000ff74;
+    font-family: miEstilo, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: #0000ff;
+}
+
+h2{
+    font-family: miTexto;
+    font-weight: 900;
+    color: #00ffff;
+    text-align: justify;
+}
+
+h2{
+    font-family: miTexto;
+    font-weight: 900;
+    color: #eff7f7;
+    background-color: #0000ff74;
+    text-align: center;
+}
+
+
+
+table{
+    margin: 3rem;
+    width: 50%;
+    margin-left: 20rem;
+    text-align: center;
+    background-color: rgba(240, 248, 255, 0.449);
+    font-size: 20px;
+}
+
+.tabla2{
+    background-color: rgba(240, 248, 255, 0.449);
+}
+@media screen {
+    
+}
+
+h3{
+    background-color: rgba(240, 248, 255, 0.449);
+    width: 238px;
+    text-align: center;
+    margin-left: 34rem;
+}
