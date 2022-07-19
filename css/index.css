@@ -67,3 +67,28 @@ h3{
     text-align: center;
     margin-left: 34rem;
 }
+
+li{
+    display: inline-block;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+
+.contenedorPadre{
+    display: flex;
+    border: 2px solid blue;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+.hijo{
+    margin: 0.5em;
+    padding: 0.5em;
+    border: 2px solid red;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(8, 216, 147);
+
+}
+
